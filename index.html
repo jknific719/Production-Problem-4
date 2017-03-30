@@ -1,16 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="screen.css">
     <meta charset="utf-8">
     <title>Production Problem 4 - Planets</title>
   </head>
   <body>
-    <h1>Table 'o Planets!'</h1>
+    <header>
+      <h1>Table 'o Planets!</h1>
+    </header>
     <table>
-      <tr>
-        <th><img src="images/earth-transparent.png" alt="Earth">Earth</th>
-      </tr>
+      <thead>
+        <tr id="top">
+          <th scope="col">Planet Attributes</th>
+          <th scope="col"><img src="images/earth-transparent.png" alt="Earth"><div>Earth</div></th>
+          <th scope="col"><img src="images/mars-transparent.png" alt="Mars"><div>Mars</div></th>
+          <th scope="col"><img src="images/uranus-transparent.png" alt="Uranus"><div>Uranus</div></th>
+          <th scope="col"><img src="images/jupiter-transparent.png" alt="Jupiter"><div>Jupiter</div></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Mass (kg)</th>
+          <td>5.98 x 10<sup>24</sup></td>
+          <td>6.42 x 10<sup>23</sup></td>
+          <td>8.68 x 10<sup>25</sup></td>
+          <td>1.90 x 10<sup>27</sup></td>
+        </tr>
+        <tr>
+          <th scope="row">Diameter (km)</th>
+          <td>12,756</td>
+          <td>6,787</td>
+          <td>51,118</td>
+          <td>142,800</td>
+        </tr>
+        <tr>
+          <th scope="row">Mean density (kg/m<sup>3</sup>)</th>
+          <td>5,520</td>
+          <td>3,940</td>
+          <td>1,290</td>
+          <td>1,314</td>
+        </tr>
+        <tr>
+          <th scope="row">Escape velocity (m/s)</th>
+          <td>11,200</td>
+          <td>5,000</td>
+          <td>21,300</td>
+          <td>59,500</td>
+        </tr>
+        <tr>
+          <th scope="row">Average distance from the Sun</th>
+          <td>1 AU (149,597,890 km)</td>
+          <td>1.524 AU (227,936,640 km)</td>
+          <td>19.19 AU (2,870,972,200 km)</td>
+          <td>5.203 AU (778,412,020 km)</td>
+        </tr>
+        <tr>
+          <th scope="row">Rotation period (Earth days)</th>
+          <td>1 (23.93 hours)</td>
+          <td>1.026</td>
+          <td>0.72 (17.9 Earth hours)(retrograde)</td>
+          <td>0.41 (9.8 Earth hours)</td>
+        </tr>
+        <tr>
+          <th scope="row">Revolution period (Earth days)</td>
+          <td>365.26</td>
+          <td>686.98</td>
+          <td>30,685 (84 Earth years)</td>
+          <td>4,328.9 (11.86 Earth years)</td>
+        </tr>
+      </tbody>
     </table>
+    <footer>
+      <p>Jacob Knific 2017 <a href="mailto:jknific@hawk.iit.edu">Contact</a></p>
+    </footer>
   </body>
 </html>
